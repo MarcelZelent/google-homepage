@@ -5,3 +5,10 @@
     #box{
         width: 20em;
     }
+
+    footer 
+    {
+        background-color: rgb(206, 200, 200);
+        position: fixed;
+        margin-bottom: 0px;
+    }
