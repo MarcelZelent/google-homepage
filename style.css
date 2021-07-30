@@ -6,9 +6,19 @@
         width: 20em;
     }
 
+    #mylogo{
+        height: 2em;
+        width: 2em;
+        border-radius: 50%;
+    }
+
     footer 
     {
         background-color: rgb(206, 200, 200);
         position: fixed;
-        margin-bottom: 0px;
+        margin-top: 70vh;
+    }
+
+    header{
+        margin-left: 0px;
     }
