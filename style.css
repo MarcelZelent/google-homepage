@@ -1,23 +1,30 @@
 body{
     font-family: Arial, sans-serif;
+    
 }
     .search-box {
-        height: 100vh;
+        margin-top: 198px;
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
     }
 
 
     #box{
-        width: 20em;
-        height: 3em;
-        margin: 2em;
+        width: 30em;
+        height: 34px;
+        margin: 1em;
+        border-width: 1px;
+        border-radius: 30px;
+        border-color: rgba(0, 0, 0, 0.87);
+        background-color: rgba(0, 0, 0, 0);
     }
 
     #mylogo{
         height: 2em;
         width: 2em;
+        border-radius: 50%;
     
     }
     #mylogo:hover{
@@ -26,23 +33,68 @@ body{
 
     footer 
     {
-        background-color: rgb(218, 220, 224);
+        background-color: rgb(242, 242, 242);
         position: fixed;
         bottom: 0;
         display: flex;
         width: 100%;
-        height: 2em;
+        height: 3em;
         align-items: center;
         justify-content: space-evenly;
     }
 
     header{
-        margin-left: 0px;
         position: fixed;
+        height: 48px;
+        width: 15em;
         top: 0;
         right: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
     }
 
     .right{
         justify-content: space-between;
+    }
+    .links{
+        text-decoration: none;
+        font-size: 14px;
+        color: rgb(112, 117, 122);
+    }
+    .links:hover
+    {
+        text-decoration: underline;
+    }
+
+    .top{
+        color: rgba(0, 0, 0, 0.87);
+    }
+
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        display: inline;
+    }
+
+    .buttons{
+        min-width: 54px;
+        width: 150px;
+        height: 36px;
+        padding: 0px 16px;
+        margin: 11px 4px;
+        border: none;
+        border-radius: 4px;
+        background-color: rgb(248, 249, 250);
+        color:rgb(60, 64, 67)
+    }
+
+    div.buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
