@@ -4,12 +4,31 @@ body{
 }
     .search-box {
         margin-top: 258px;
+        position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        z-index: 3;
     }
 
+    .bottomofbox{
+        position: absolute;
+        top: -53.7em;
+        transform: scale(0.01);
+        left: 33em;
+        z-index: 2;
+    }
+
+    .searchico{
+        position: absolute;
+        top: 129px;
+        left: 42.6em;
+        fill:white;
+        color: white;
+        z-index: 1;
+
+    }
 
     #box{
         width: 582px;
@@ -20,6 +39,7 @@ body{
         border-radius: 50px;
         border-color: rgb(223, 225, 229);
         background-color: rgba(0, 0, 0, 0);
+        padding-left: 50px;
     }
 
     #box:hover{
@@ -38,7 +58,6 @@ body{
 
     .apps{
         border-radius: 50%;
-        border-width: 200px;
     } 
     
     .apps:hover{
