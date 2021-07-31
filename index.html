@@ -16,20 +16,24 @@
     </header>
     <div class="search-box">
         <a href="https://marcelzelent.github.io/google-homepage/"><img src="googlelogo_color_272x92dp.png" alt="Google Logo"></a>
-        <form action="https://www.google.com">
-            <input id="box" name="Search query" type="search" autocomplete="on" placeholder="Can't wait for what you're gonna search">
-            <input name="search" type="button" value="Google Search">
-            <input name="lucky" type="button" value="I'm Feeling Lucky">
+        <form action="https://www.google.com/search" method="GET">
+            <div>
+                <input id="box" name="q" type="search" autocomplete="on" placeholder="Can't wait for what you're gonna search...">
+            </div>
+            <div>
+                <button type="submit">Google Search</button>
+                <button type="submit">I'm Feeling Lucky</button>
+            </div>     
         </form>
     </div>
     <footer>
-        <div>
+        <div id="left">
             <a href="#">About</a>
             <a href="#">Advertising</a>
             <a href="#">Business</a>
             <a href="#">How Search Works</a>
         </div>
-        <div>
+        <div class="right">
             <a href="#">Privacy</a>
             <a href="#">Terms</a>
             <a href="#">Settings</a>
