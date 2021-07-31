@@ -88,9 +88,6 @@ body{
         justify-content: space-evenly;
     }
 
-    .right{
-        justify-content: space-between;
-    }
     .links{
         text-decoration: none;
         font-size: 14px;
@@ -107,12 +104,12 @@ body{
 
     ul{
         list-style-type: none;
-        margin: 0;
-        padding: 0;
     }
     li{
         display: inline;
+        margin-left: 50px;
     }
+
 
     .buttons{
         width: 150px;
@@ -132,4 +129,8 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .left{
+        left: 0px;
     }
