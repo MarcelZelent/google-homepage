@@ -114,11 +114,14 @@ body{
     .buttons{
         width: 150px;
         height: 36px;
-        transform: translateX(150px);
+        font-size: 14px;
+        transform: translateX(160px);
         border: none;
         border-radius: 4px;
         background-color: rgb(248, 249, 250);
-        color:rgb(60, 64, 67)
+        color:rgb(60, 64, 67);
+        padding: 0 16px 0 16px;
+        margin: 0 auto;
     }
 
     .buttons:hover{
