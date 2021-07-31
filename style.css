@@ -3,7 +3,7 @@ body{
     
 }
     .search-box {
-        margin-top: 198px;
+        margin-top: 258px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -12,13 +12,18 @@ body{
 
 
     #box{
-        width: 30em;
-        height: 34px;
-        margin: 1em;
+        width: 582px;
+        min-width: 54px;
+        height: 44px;
+        margin: 1.7em;
         border-width: 1px;
-        border-radius: 30px;
-        border-color: rgba(0, 0, 0, 0.87);
+        border-radius: 50px;
+        border-color: rgb(223, 225, 229);
         background-color: rgba(0, 0, 0, 0);
+    }
+
+    #box:hover{
+        box-shadow: 0 0 5px rgb(112, 117, 122);
     }
 
     #mylogo{
@@ -28,7 +33,16 @@ body{
     
     }
     #mylogo:hover{
-        box-shadow: black;
+        box-shadow: 0 0 5px rgb(112, 117, 122);
+    }
+
+    .apps{
+        border-radius: 50%;
+        border-width: 200px;
+    } 
+    
+    .apps:hover{
+        background-color: rgb(223, 225, 229);
     }
 
     footer 
@@ -82,15 +96,17 @@ body{
     }
 
     .buttons{
-        min-width: 54px;
         width: 150px;
         height: 36px;
-        padding: 0px 16px;
-        margin: 11px 4px;
+        transform: translateX(150px);
         border: none;
         border-radius: 4px;
         background-color: rgb(248, 249, 250);
         color:rgb(60, 64, 67)
+    }
+
+    .buttons:hover{
+        box-shadow: 0 0 1.5px black;
     }
 
     div.buttons{
