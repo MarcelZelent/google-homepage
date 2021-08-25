@@ -10,6 +10,7 @@ body{
         justify-content: center;
         flex-direction: column;
         z-index: 3;
+        flex-grow: 1;
     }
 
     .bottomofbox{
@@ -37,13 +38,29 @@ body{
         margin: 1.7em;
         border-width: 1px;
         border-radius: 50px;
-        border-color: rgb(223, 225, 229);
-        background-color: rgba(0, 0, 0, 0);
+        border-color: rgb(221, 221 ,221);
+        background: url(searchico.png), url(https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg);
+        background-repeat: no-repeat;
+        background-size: 1.5em, 1.05em;
+        background-position: 2.5%, 96.25%;
         padding-left: 50px;
+        outline: none;
+        
     }
 
     #box:hover{
-        box-shadow: 0 0 5px rgb(112, 117, 122);
+        box-shadow: 0px 1px 3px rgb(112, 117, 122);
+    }
+
+    #box::-webkit-search-cancel-button{
+        position: relative;
+        right: 62px;
+        bottom: 2px;
+
+        -webkit-appearance: none;
+        height: 20px;
+        width: 20px;
+        background: url(clear_black_24dp.svg);
     }
 
     #mylogo{
@@ -58,6 +75,7 @@ body{
 
     .apps{
         border-radius: 50%;
+        padding: 6px;
     } 
     
     .apps:hover{
@@ -75,18 +93,16 @@ body{
         width: 100%;
         height: 3em;
         align-items: center;
+        justify-content: space-between;
         
     }
     ul.left{
         left: 0;
-        width: 60%;
     }
     ul.right{
-        right: 0;
+        margin-right: 5em;
     }
-    .middle{
-        width: 20%
-    }
+    
 
     header{
         position: fixed;
