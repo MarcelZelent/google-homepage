@@ -39,17 +39,18 @@ body{
         border-width: 1px;
         border-radius: 50px;
         border-color: rgb(221, 221 ,221);
-        background: url(searchico.png), url(https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg);
+        background: url(searchicomaybe.png), url(https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg);
         background-repeat: no-repeat;
         background-size: 1.5em, 1.05em;
         background-position: 2.5%, 96.25%;
         padding-left: 50px;
         outline: none;
+        border-style: solid;
         
     }
 
     #box:hover{
-        box-shadow: 0px 1px 3px rgb(112, 117, 122);
+        box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
     }
 
     #box::-webkit-search-cancel-button{
@@ -60,7 +61,7 @@ body{
         -webkit-appearance: none;
         height: 20px;
         width: 20px;
-        background: url(clear_black_24dp.svg);
+        background: url(clear_black_24dpmaybe.png);
     }
 
     #mylogo{
@@ -76,10 +77,11 @@ body{
     .apps{
         border-radius: 50%;
         padding: 6px;
+        fill: rgb(223, 211, 211);
     } 
     
     .apps:hover{
-        background-color: rgb(223, 225, 229);
+        background-color: rgb(242, 242, 242);
     }
 
     footer 
@@ -100,7 +102,7 @@ body{
         left: 0;
     }
     ul.right{
-        margin-right: 5em;
+        margin-right: 2.5em;
     }
     
 
@@ -128,6 +130,7 @@ body{
 
     .top{
         color: rgba(0, 0, 0, 0.87);
+        font-size: 13px;
     }
 
     ul{
